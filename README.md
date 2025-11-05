@@ -58,7 +58,7 @@ td.runSimulations(10000, 2, 20);  // 10,000 games, 2 players, 20-card stock pile
 
 ## AI Strategy
 
-The simple AI implemented in this program prioritizes emptyingg their stock pile. On any given turn, it first checks if it
+The simple AI implemented in this program prioritizes emptying their stock pile. On any given turn, it first checks if it
 can play any move, then checks if it can play from StockPile, if no it checks if it can play from Hand, if no it checks
 if it can play from DiscardPiles. To end it's turn, it discards its highest value card onto an empty discard pile.
 If there is no empty discard pile, it discards onto the discard pile which has the highest value top card.
