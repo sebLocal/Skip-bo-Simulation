@@ -41,4 +41,9 @@ public class TestDriver
         System.out.println("Games where winner won with opponent(s) having full stock: " + gamesWithFullStock);
         System.out.println("Percentage: " + (100.0 * gamesWithFullStock / numGames) + "%");
     }
+
+    public static void main(String[] args){
+        TestDriver td = new TestDriver();
+        td.runSimulations(10000, 4, 20);
+    }
 }
